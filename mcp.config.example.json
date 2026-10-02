@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sillytavern": {
+      "command": "node",
+      "args": ["/absolute/path/to/sillytavern-mcp/src/server.js"],
+      "env": {
+        "ST_URL": "http://127.0.0.1:8000",
+        "ST_BROWSER_CHANNEL": "msedge"
+      }
+    }
+  }
+}
